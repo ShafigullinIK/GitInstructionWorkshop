@@ -42,6 +42,4 @@
 
 ## Альтернативные системы контроля версий.
 
-
-## OK THAT WAS FUNNY
-# THIS IS NO FUNNY ANYMORE
+***SPASIBO***
