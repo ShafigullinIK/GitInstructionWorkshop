@@ -129,5 +129,5 @@ git push --delete origin [branch-name].
 ```
 
 ```sh
-                         Финал
+                         Final
 ```
