@@ -25,6 +25,18 @@
 ### Что такое ветки и для чего они нужны при работе с системой контроля версий.
 
 ### Базовая работа с ветками в git.
+branch creating
+```sh
+git branch branch_name
+```
+switch to another branch
+```sh
+git checkout branch_name
+```
+branch deleting
+```sh
+git branch -d branch_name
+```
 
 ## Работа с удаленными репозиториями.
 
