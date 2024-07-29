@@ -1,16 +1,36 @@
-## Соответствие групп и тем на практикум.
+# Это репозиторий для обучения pull request
 
-1. Что такое система контроля версий
-2. Для чего нужна система контроля версий
-3. Установка git на ваш ПК (в зависимости от системы)
-4. Установка VSCode на ваш ПК
-5. Что такое репозиторий и инструкция по созданию локальных репозиториев.
-6. Базовая работа с локальным репозиторием
-7. Что такое ветки и для чего они нужны при работе с системой контроля версий.
-8. Базовая работа с ветками в git.
-9. Что такое удаленный репозиторий и для чего он нужен
-10. Базовая работа с удаленными репозиториями GitHub
-11. Как строится и для чего нужна совместная работа в системах контроля версий
-12. Инструкция по созданию pull request
-13. Книги и полезные ссылки по изучению git.
-14. Альтернативные системы контроля версий.
+## Первые шаги
+
+1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория <https://git@github.com:gulden-geekbrains/version_control.git>
+2. Выполняем команду клонирования из своей fork-копии
+```sh
+git clone git@github.com:*YOURE_GITHUB*/version_control.git
+```
+3. Создаем новую ветку и вносим необходимые изменения в файл
+```sh
+git checkout -b updatereadme
+vim README.md
+git add README.md
+git commit -m "Добавили инструкцию как создать pull request"
+```
+4. Делаем push  
+```sh
+git push --set-upstream origin updatereadme
+```
+5. Переходим на свою страницу репозитория. Выбираем ветку **updatereadme** и жмем кнопку **Compare & pull request**
+
+## Заметки
+
+Что бы сделать push от другого пользователя необходимо выполнить команду
+```sh
+GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push git@github.com:gulden-geekbrains/version_control.git
+```
+
+вместо *user-private-key* подставьте свой ключ
+
+Можно прописать настройки для подсоединения по ssh
+```sh
+git config remote.origin.url git@github.com:gitusername/reponame
+git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
+```
