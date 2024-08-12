@@ -159,5 +159,14 @@ git push - Эта команда позволяет отправить нашу
 * На сайте GitHub нажимаем кнопку pull request
 
 ## Книги и полезные ссылки по изучению git.
+1. [GitHowTo](https://githowto.com/ru)
+2. [Git Immersion](https://gitimmersion.com/)
+3. Видео: [что такое Git на пальцах](https://www.youtube.com/watch?v=G4f9OH4IQE8&embeds_referring_euri=https%3A%2F%2Fembedd.srv.habr.com%2F&source_ve_path=MzY4NDIsMjg2NjY)
+4. [Learn Git Branching](https://learngitbranching.js.org/?locale=ru_RU)
+5. [Try Git](https://docs.github.com/en/get-started/getting-started-with-git/set-up-git)
+6. [Git wiki](https://archive.kernel.org/oldwiki/git.wiki.kernel.org/index.php/Main_Page.html)
 
 ## Альтернативные системы контроля версий.
+1. [subversion](https://subversion.apache.org/)
+2. [Mercurial](https://mercurial-scm.org/)
+3. [CVS (Concurrent Versions System)](https://www.nongnu.org/cvs/)
