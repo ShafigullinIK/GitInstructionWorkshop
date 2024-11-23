@@ -4,4 +4,5 @@
 <li>Клонироват на компьютер</li>
 <li>Внести изменение</li>
 <li>Pull request</li>
+<li>Создание конфликта branch1 и branch2</li>
 </ul>
